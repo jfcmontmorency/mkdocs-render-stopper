@@ -1,8 +1,12 @@
 from setuptools import setup, find_packages
 
+# Charger le contenu du fichier README.md pour le long description
+with open('README.md', 'r', encoding='utf-8') as f:
+    readme = f.read()
+
 setup(
     name='mkdocs-render-stopper',
-    version='0.1.0',
+    version='0.1.1',
     author='Jean-François Cartier',
     author_email='jfcartier@cmontmorency.qc.ca',
     url='https://github.com/jfcmontmorency/mkdocs-render-stopper',
